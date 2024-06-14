@@ -1,0 +1,127 @@
+.login {
+  background-color: #3D3E3F;
+}
+
+.logBody{
+  height: 100vh;
+}
+
+.logTitle{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logTitle h1{
+  font-size: 3em;
+  color: white;
+}
+
+
+.logBodyContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 520px;
+  height: 400px;
+  color: white;
+  background-color: #202326;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.logClose{
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: end;
+}
+
+.lFormContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formActions{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.lInputItem {
+  display: flex;
+  flex-direction: column;
+  position: relative;  
+}
+
+.lInputItem label{
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.lInputItem input{
+  padding: 10px 20px;
+  background-color: #202326;
+  border-radius: 6px;
+  border-color: #00FFFF;
+  color: white;
+  width: 350px;
+  height: 2.5em;  
+}
+
+.lInputItem input:hover {
+  transform: scale(1.05);
+}
+
+.lBackBuuton{
+  margin-right: 40px;
+}
+
+.lBackBuuton a{
+  margin: auto;
+  text-decoration: none;
+  color: #00FFFF;
+}
+
+.lBackBuuton a :hover{
+  color: #18A7B5;
+}
+
+.loginButton{
+  background-color: #00FFFF;
+  width: 200px;
+  height: 3em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.signupLink{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.signupLink a{
+  text-decoration: none;
+  color:#00FFFF;
+}
+
+.pass a{
+  text-decoration: none;
+  color:#00FFFF;
+}

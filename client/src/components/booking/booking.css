@@ -1,0 +1,164 @@
+.booking{
+    background-color: #202326;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+    max-height: 1024px;
+    margin: auto;
+}
+
+.bHeaderContainer{
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.computerContainer{
+    background-color: #3D3E3F;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.computerPhoto{
+    width: 100px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computerDescription{
+    width: 250px;
+    height: inherit;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.textDescription{
+    color: white;
+    width: 200px; /* Установите нужную ширину контейнера */
+    height: 140px;
+    overflow: hidden; /* Обрезает содержимое, выходящее за пределы контейнера */
+    text-overflow: ellipsis; /* Добавляет многоточие в конце обрезанного текста */
+}
+
+.statusOccupied{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #F6768E;
+}
+
+.statusFree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #82ffc5;
+}
+
+.bFooterContainer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;  
+}
+
+.inputContainer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.timeContainer{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.timeInputContainer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.bInput{
+    margin: 10px 0 10px 0;
+    width: 260px;
+    height: 50px;
+    background-color: #202326;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+}
+
+.bInputTime{
+    margin: 10px 0 10px 0;
+    width: 100px;
+    height: 35px;
+    background-color: #202326;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+}
+
+.bInputDate{
+    margin: 10px 0 10px 0;
+    width: 245px;
+    height: 35px;
+    background-color: #202326;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+}
+
+.closeButton {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #00FFFF;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bButton {
+    height: 40px;
+    margin: 10px 0 10px 0;
+    padding: 10px 20px;
+    background-color: #00FFFF;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bButton:hover {
+    background-color: #18A7B5;
+}

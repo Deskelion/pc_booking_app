@@ -1,0 +1,130 @@
+  .profile {
+    background-color: #202326;
+
+  }
+  
+  .profileHeader {
+    width: 100%;
+    height: 150px;
+    background: #202326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .UserInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    min-height: 756px;
+    width: 50%;
+    background-color: #3D3E3F;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+
+  .UserInfo h2{
+    color: white;
+  }
+
+  
+  .hline{
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .userButtun{
+    padding: 0 20px;
+  }
+
+  .BookingInfo{
+    color: rgba(255, 255, 255, 0.404);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+
+  .pBookingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    background-color: #202326;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    gap: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .deleteButton {
+    margin: 0 30px 0 30px;
+    padding: 10px 20px;
+    height: 35px;
+    color: black;
+    background-color: #00FFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .pBookingHolder {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pBookingHolder p{
+    color :white;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .editButton {
+    margin: 0 30px 0 30px;
+    padding: 10px 20px;
+    height: 35px;
+    color: black;
+    background-color: #00FFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .profileClose{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: end;
+  }
+
+  .pBackButton {
+    margin-right: 20px;
+  }
+  
+  .pBackButton a{
+    margin: auto;
+    text-decoration: none;
+    color: #00FFFF;
+  }
+  
+  .pBackButton a :hover{
+    color: #18A7B5;
+  }
+
+  .pBookingHolder{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+

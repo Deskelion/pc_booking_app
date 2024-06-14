@@ -1,0 +1,111 @@
+.register {
+  background-color: #3D3E3F;
+}
+
+.regHeader{
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regHeader h1{
+  font-size: 3em;
+  color: white;
+}
+
+.regBody{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;  
+
+}
+
+.regBodyContainer {
+  padding: 20px;
+  width: 520px;
+  height: 880px;
+  color: white;
+  background-color: #202326;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.regClose{
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: end;
+}
+
+.rFormContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rInputItem {
+  display: flex;
+  flex-direction: column;
+  position: relative;  
+}
+
+.rInputItem label{
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.rInputItem input{
+  padding: 10px 20px;
+  background-color: #202326;
+  border-radius: 6px;
+  border-color: #00FFFF;
+  color: white;
+  width: 350px;
+  height: 2.5em;  
+}
+
+.rInputItem input:hover {
+  transform: scale(1.05);
+}
+
+.rbackButton {
+  margin-right: 20px;
+}
+
+.rbackButton a{
+  margin: auto;
+  text-decoration: none;
+  color: #00FFFF;
+}
+
+.rbackButton a :hover{
+  color: #18A7B5;
+}
+
+.regButton{
+  background-color: #00FFFF;
+  width: 200px;
+  height: 3em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.loginLink{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.loginLink a{
+  text-decoration: none;
+  color:#00FFFF;
+}
